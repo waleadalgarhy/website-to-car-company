@@ -1,0 +1,502 @@
+
+/*start uper bar */
+.upper-bar{
+	background: #52626f;
+	
+	color: #FFF;
+}
+.upper-bar .info{
+	margin: 10px 0;
+}
+@media (max-width: 991.98px) { 
+
+	.upper-bar .info:first-child{
+		margin-bottom: 0;
+	}
+}
+.upper-bar button{
+	background: none;
+	border: 2px solid red;
+	color: #FFF;
+	transition: all ease-in-out .5s;
+	margin-left: 30px;
+	padding: 2px 10px;
+	
+	
+		
+
+
+}
+.upper-bar button:hover{
+	background: red;
+}
+
+/*end upper bar*/
+
+/*start nav bar*/
+
+.navbar-collapse{
+	flex-grow: 0;
+}
+.navbar-expand-lg .navbar-nav .nav-link{
+	
+	font-size: 20px;
+	text-transform: uppercase;
+	margin-left: 20px;
+	color: #08526d;
+}
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link{
+	color: #ec1c23
+}
+
+
+
+.navbar .navbar-brand span{
+	font-size: 40px;
+}
+.navbar .navbar-brand span:first-child{
+	color: #08526d;
+	font-weight: bold;
+}
+.navbar .navbar-brand span:last-child{
+	color: #ec1c23;
+}
+/*end navbar*/
+/*start carousl*/
+
+
+
+.carousel-inner .carousel-item {
+	background-size: cover;
+}
+.carousel-inner .one{
+	background-image: url(../img/mclaren-mp4-monochrome-1.jpg)
+		
+}
+.carousel-inner .two{
+	background-image: url(../img/mclaren-p1-sunrise-1.jpg)
+}
+.carousel-inner .three{
+	background-image: url(../img/mercedes-190sl-convertible-1.jpg);
+	
+}
+
+
+/*end carousl*/
+/*start features*/
+
+.features{
+	margin-top: 20px;
+}
+.features h3{
+	margin-top: 5px;
+	color: #08526d;
+}
+.features p{
+	color:#8c888e;
+}
+.features i{
+	background: red;
+	padding: 10px;
+	color: #FFF;
+	margin-bottom: 5px;
+}
+/*end features*/
+/* start overview*/
+.overview{
+	background: #F0F5F7;
+	margin-top: 40px;
+	padding: 80px;
+	
+}
+.overview h3{
+	font-weight: bold;
+	font-size: 50px;
+	margin-bottom: 30px;
+	text-transform: uppercase;
+	
+}
+@media (max-width:575.9px){
+	.overview h3{
+		font-weight: bold;
+	font-size: 30px;
+	margin-bottom: 30px;
+	text-transform: uppercase;
+	}
+	
+	
+}
+.overview p{
+	line-height: 2;
+	width: 80%;
+	margin: auto;
+	font-size: 20px;
+	color: #555;
+}
+@media (max-width:575.9px){
+	.overview p{
+	line-height: 2;
+	width: 100%; 
+	margin: auto;
+	font-size: 20px;
+	color: #555;	
+		
+		
+		
+		
+		
+		
+	}
+}
+.btn-danger {
+	width: 150px;
+  margin-top: 18px;
+	text-transform: uppercase;
+	background:  #ec1c23;
+	font-size: 20px;
+	
+}
+/*end overview*/
+/*start feated work*/
+.fetaed h2{
+	margin-top:25px;
+}
+.fetaed p{
+	line-height: 1.5;
+	width: 80%;
+	margin: auto;
+	font-size: 20px;
+	color: #555;
+	margin-top: 38px;
+	
+}
+.fetaed ul li{
+	border: 2px solid #08526d;
+	margin-right: 8px;
+	margin-top: 15px;
+	color: #08526d; 
+	padding: 10px 20px
+}
+.fetaed ul li.active,
+.fetaed ul li:hover{
+	background: #ec1c23;
+	border: 2px solid #ec1c23;
+	color: #FFF;
+}
+.fetaed ul li:hover{
+	cursor: pointer;
+}
+.fetaed .row {
+	    margin-right: 0px;
+    margin-left: 0px;
+}
+.fetaed .shifled{
+	margin-top: 50px;
+}
+.fetaed .row img{
+	width: 100%;
+	
+}
+.col, .col-1, .col-10, .col-11, .col-12, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-auto, .col-lg, .col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-auto, .col-md, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-auto, .col-sm, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-auto, .col-xl, .col-xl-1, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-auto{
+	    padding-right: 0px;
+    padding-left: 0px
+}
+.shifled .row .col-md {
+	transition: all .5s ease-in-out;
+	
+	
+	
+	
+}
+/*end feated work*/
+/*start last  posts*/
+.posts{
+	margin-top: 30px;
+}
+.posts h2{
+	font-weight: bold;
+	font-size: 50px;
+	margin-bottom: 30px;
+	
+	
+	
+}
+.posts .walead {
+	line-height: 1.4;
+	width: 80%;
+	margin: auto;
+	font-size: 20px;
+	color: #555;
+}
+@media (max-width: 575.71px) {
+	.posts .row .col-md-4{
+		text-align: center;
+	}
+}
+.posts .row .col-md-4{
+	margin-top: 30px;
+}.posts .btn{
+	background: #ec1c23;
+}
+.btn-primary {
+    color: #fff;
+    
+    border-color: #ec1c23;
+}
+
+/*end last posts*/
+/* start testmonails*/
+.testmonials{
+	
+	 background: url("../img/mclaren-p1-sunrise-1.jpg") no-repeat center center fixed;
+      background-size: cover;
+       
+	min-height: 500px;
+	margin-top: 50px;
+}
+.test{
+	background: rgba(2,2,2,.09);
+	min-height: 500px;
+	
+}
+.testmonials .carousel-inner .carousel-caption{
+	
+	display: flex;
+	justify-items: flex-end;
+}
+
+.testmonials .carousel-inner .carousel-caption img{
+	position: relative;
+	justify-content:
+}
+
+
+/*end testmonails*/
+/*start pricing table*/
+.prcing{
+	
+	background: #f7f7f7;
+	padding: 100px; 
+}
+.prcing .col-md{
+	margin-top: 50px;
+}
+.prcing h2{
+	padding-top: 50px;
+	font-weight: bold;
+}
+.prcing > p{
+		line-height: 1.5;
+	width: 80%;
+	margin: auto;
+	font-size: 20px;
+	color: #555;
+	margin-top: 38px;
+	margin-bottom: 20px;
+	
+}
+.prcing .card-body{
+	padding: 0
+}
+
+.prcing .card .card-title{
+	font-size: 25px;
+	margin-top: 40px;
+}
+.card-text:last-child {
+	margin: 20px 0 10px;
+	background: #DDD;
+	padding: 20px;
+	font-size: 30px;
+	font-weight: bold;
+		
+}
+.prcing .card .card-text span{
+font-size: 15px;
+	text-transform: uppercase;
+
+} 
+.list-group-item{
+	border: none;
+	display: block;
+	padding: 15px;
+	margin-bottom: 10px;
+}
+.card-body a{
+	display: inline-block;
+	padding: 4px 25px ;
+	background: red;
+	margin-bottom: 30px;
+	font-weight: bold;
+	color: #FFF;
+}
+.corpate{
+	position: relative;
+	top: -18px;
+}
+.corpate .tt{
+	background-color: red;
+	color: #FFF;
+}
+
+
+/*end pricing table*/
+/*start contact -us*/
+.contact {
+	overflow: hidden;
+	padding: 0;
+	margin: 0;
+}
+.contact .col-6 h2{
+	margin-top: 50px;
+	margin-left: 20px;
+	font-size: 50px;
+	color: #FFF;
+}
+.contact .col-6 p{
+margin-top: 50px;
+	margin-left: 20px;
+	color: #b5c3c9
+}
+.contact .col-6 .btn{
+	margin-left: 20px;
+	margin-top: 50px;
+	margin-bottom: 20px;
+	
+}
+.contact .col-6:last-child{
+	background-color: #08526D;
+}
+	
+/*end contact us*/
+		
+/* start stastic*/
+.statistic{
+	margin-top: 80px;
+}
+.statistic i , h2{
+	color: #08526D;
+	font-weight: bold;
+	font-size: 45px;
+}
+.statistic h2{
+	margin-top: 20px;
+}
+.statistic h5{
+	color: red;
+	text-transform: uppercase;
+}
+	
+/* end stastic */
+/*start phone us */
+.phone{
+	background-color: #ed1d24;
+	padding: 60px;
+	margin-top: 50px;
+}
+.phone h4{
+	display: inline;
+	color: #FFF;
+	font-size: 30px;
+}
+.phone .btn{
+	border: 2px solid #FFF;
+	color: #FFF;
+	padding: 10px 30px;
+	text-transform: uppercase;
+	
+	
+}
+@media(max-width:991.98px){
+	.phone .btn{
+		margin-top: 20px;
+	}
+}
+
+
+
+/* end phone us*/
+/* start footer*/
+.footer{
+	background: #f7f7f7;
+	padding: 100px 0 ;
+}
+.footer .navbar-brand span{
+	font-size: 40px;
+}
+.footer .navbar-brand span:first-child{
+	color: #08526d;
+	font-weight: bold;
+}
+.footer .navbar-brand span:last-child{
+	color: #ec1c23;
+}
+.footer .walead p{
+	color: #555;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 1.7;
+	margin-top: 15px;
+}
+.footer .hh h3,
+.footer .con-us
+h3
+{
+	color: #08526d;
+	margin-bottom: 30px;
+}
+.footer .hh ul li{
+	margin-top: 10px;
+	line-height: 1.7;
+	font-size: 18px;
+	margin-left: 15px;
+}
+.footer .con-us ul li::before{   font-family: "Font Awesome 5 Free"; font-weight: 900; content: "\f007";
+	   
+}
+.footer .con-us ul li{
+	margin: 20px;
+}
+@media(max-width:575.9px){
+	.footer{
+		text-align: center;
+		
+		
+	}
+}
+
+/*end foooter*/
+/*start copy right*/
+.copy{
+	border-top: 3px solid #908888;
+	padding: 10px;
+	background-color:#f7f7f7; 
+}
+.copy .col{
+	margin-top: 10px;
+}
+.copy ul li{
+	display: inline-block;
+	margin-left: 20px;
+	font-size: 30px;
+}
+.copy .col span{
+	color: red
+		;
+}
+
+
+
+
+/*end  copy right*/
+
+
+
+
+
+
+
+
+
+
+
